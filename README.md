@@ -37,9 +37,9 @@
 
 git clone https://github.com/raynowww/linux-monitor-telegram.git  
 
-2. Настроить переменные   
-cp .env.example .env  
-cd linux-monitor-telegram     
+2. Настроить переменные
+cd linux-monitor-telegram   
+cp .env.example .env      
 nano .env    
 
 4. Указать обязательные переменные:
