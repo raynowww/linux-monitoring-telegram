@@ -35,14 +35,14 @@
 
 1. Клонировать репозиторий
 
-git clone https://github.com/raynowww/linux-monitor-telegram.git
-cd linux-monitor-telegram
+git clone https://github.com/raynowww/linux-monitor-telegram.git  
 
-2. Настроить переменные
+2. Настроить переменные   
 cp .env.example .env  
-nano .env  
+cd linux-monitor-telegram     
+nano .env    
 
-3. Указать обязательные переменные:
+4. Указать обязательные переменные:
 
 TELEGRAM_TOKEN=xxx:yyy  
 TELEGRAM_CHAT_ID=123456789  
