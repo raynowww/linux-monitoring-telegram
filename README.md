@@ -37,10 +37,10 @@
 
 git clone https://github.com/raynowww/linux-monitor-telegram.git  
 
-2. Настроить переменные  
-cd linux-monitor-telegram   
-cp .env.example .env      
-nano .env    
+2. Настроить переменные
+   ```bash
+   cd linux-monitor-telegram   
+   cp .env.example .env          
 
 4. Указать обязательные переменные:
 
@@ -51,18 +51,18 @@ TELEGRAM_CHAT_ID=123456789
 
 🐳 Запуск в Docker Compose
 
-docker compose build  
-docker compose up -d  
+    docker compose build  
+    docker compose up -d  
 
 ## Если нужно просмотреть лог-файл:
 
-docker logs -f linux-monitor
+    docker logs -f linux-monitor
 
 ---
 
 Нативный запуск:
 
-cp .env.example .env  
-chmod +x monitor.sh  
-./monitor.sh  
+    cp .env.example .env  
+    chmod +x monitor.sh  
+    ./monitor.sh  
 
